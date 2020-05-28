@@ -3,11 +3,11 @@
   job:
     reads_1:
       class: File
-      location: https://zenodo.org/record/1324070/files/wt_H3K4me3_read1.fastq.gz
+      location: https://zenodo.org/api/files/67d95c38-5a06-4184-b3a0-a6d3c9f25268/wt_H3K4me3_read1.fastq.gz
       filetype: fastqsanger.gz
     reads_2:
       class: File
-      location: https://zenodo.org/record/1324070/files/wt_H3K4me3_read2.fastq.gz
+      location: https://zenodo.org/api/files/67d95c38-5a06-4184-b3a0-a6d3c9f25268/wt_H3K4me3_read2.fastq.gz
       filetype: fastqsanger.gz
   outputs:
     bowtie2_mapping_stats:
